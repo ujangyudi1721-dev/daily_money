@@ -15,7 +15,7 @@ class MoneyEntry {
   });
 
   /// Convert to a MAP so HIVE can save it.
-  Map<string, dynamic> toMap() => {
+  Map<String, dynamic> toMap() => {
     'id': id,
     'title': title,
     'amount': amount,
